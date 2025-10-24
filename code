@@ -120,6 +120,3 @@ memory["playlists"] = playlists_cache
 
 with open(MEMORY_PATH, "w") as f:
     json.dump(memory, f, indent=2)
-
-print(f"🎯 Done! Memory saved at {MEMORY_PATH}")
-print("🎶 Genre/subgenre and language playlists synced successfully.")
